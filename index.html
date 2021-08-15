@@ -5,20 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>amazonClone</title>
-    <!-- Importing Tailwindscss -->
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <!-- Fontawesome -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
-    <!-- Importing Jdention -->
+
+    <!-- Firebase Import & script -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="./firebase.js"></script>
+    <script src="./script.js"></script>
+    <script src="./header.js"></script>
+
+    <!-- Jdenticon import -->
     <script
       src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.0/dist/jdenticon.min.js"
       async
@@ -257,7 +265,7 @@
               "
             >
               <span class="w-8"></span>
-              <span>Mobile</span>
+              <span>Laptops</span>
             </div>
             <div
               class="
@@ -270,7 +278,7 @@
               "
             >
               <span class="w-8"></span>
-              <span>Laptops</span>
+              <span>Mobile</span>
             </div>
             <div
               class="
@@ -386,7 +394,7 @@
               class="
                 popular-categories
                 font-bold
-                text-gray-700 text-2xl
+                text-black-700 text-2xl
                 flex
                 items-center
               "
@@ -419,7 +427,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
@@ -449,7 +457,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -478,7 +486,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
@@ -508,7 +516,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
@@ -538,7 +546,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
@@ -574,7 +582,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
@@ -604,7 +612,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
@@ -634,7 +642,7 @@
                 "
               >
                 <svg
-                  class="h-12 w-12 text-gray-500"
+                  class="h-12 w-12 text-black-500"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
@@ -652,7 +660,7 @@
             </div>
           </div>
           <div class="main-section-deals mt-5">
-            <h1 class="text-2xl font-bold text-gray-700 mb-5">Hot Deals 🔥</h1>
+            <h1 class="text-2xl font-bold text-black-700 mb-5">Best Deals!</h1>
             <div class="main-section-products flex"></div>
           </div>
         </div>
